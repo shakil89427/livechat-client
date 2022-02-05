@@ -1,0 +1,95 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.main-div {
+  width: 350px;
+  background-color: rgba(233, 20, 20, 0.863);
+  box-shadow: -1px 2px 7px 5px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+.join-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join-form h3 {
+  color: white;
+}
+.join-form input {
+  border: none;
+  outline: none;
+  width: 95%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.join-form button {
+  width: 25%;
+  padding: 3px;
+  margin: 5px 0;
+}
+.chat-main {
+  padding: 5px;
+}
+.chat-header {
+  text-align: center;
+  color: white;
+}
+.chat-body {
+  height: 350px;
+  color: white;
+  overflow-y: scroll;
+}
+.chat-body::-webkit-scrollbar {
+  display: none;
+}
+.chat-footer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat-footer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.chat-footer button {
+  border: none;
+  padding: 5px 10px;
+}
+.msgdiv {
+  display: flex;
+  flex-direction: column;
+}
+.msg {
+  margin: 0;
+}
+.time {
+  margin: 0 5px;
+}
+.you {
+  width: 50%;
+  float: right;
+  text-align: end;
+  background-color: rgba(137, 43, 226, 0.452);
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+.other {
+  width: 50%;
+  background-color: rgba(223, 223, 238, 0.459);
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
