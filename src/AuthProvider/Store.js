@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://lit-fortress-11652.herokuapp.com/");
 
 const Store = () => {
   const [user, setUser] = useState("");
